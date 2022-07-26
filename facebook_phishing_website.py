@@ -53,12 +53,12 @@ def login():
     if request.method == 'POST':
         data = request.form
         data_file = get_jsons_from_file()
-        if not email_exits(data, data_file):
+        if not email_exists(data, data_file):
             append_data_file(data)
             return redirect(URL)
         return redirect(URL)
 
-def email_exits(data, data_file): 
+def email_exists(data, data_file): 
     """Checks if the email exists in the database.
     
     Reads the website html file to find the email
