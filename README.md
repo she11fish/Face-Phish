@@ -1,5 +1,5 @@
 # Introduction
-It is a facebook phishing website where the user is tricked into believing that the website they are using is the official facebook login page.
+A Facebook phishing website where the user is tricked into believing that the website they are using is the official Facebook login page.
 It only works on a local computer. 
 I did not host the phishing website online to not promote any phishing scams.
 The project is made for educational purposes only.
